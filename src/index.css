@@ -1,12 +1,75 @@
 body {
   margin: auto;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
- width: 330px;
+  font-family: "Inter Tight", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  background-color: #23252c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.profile_picture {
+  margin-top: 44px;
+  height: 320px;
+  width: 320px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.upperText {
+  background-color: #1a1b21;
+  height: 399px;
+  width: 320px;
+  margin-top: -4px;
+}
+.upperText__name {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.upperText__job {
+  display: flex;
+  justify-content: center;
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #f3bf99;
+  margin-top: 14.19px;
+  margin-bottom: 14.19px;
+}
+
+.upperText__web {
+  display: flex;
+  justify-content: center;
+  font-size: 10.24px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+
+.upperText__button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.upperText__button > button {
+  width: 247px;
+  height: 34px;
+  background-color: #5093e2;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.bi.bi-linkedin {
+  color: #ffffff;
 }
