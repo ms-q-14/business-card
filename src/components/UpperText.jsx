@@ -23,10 +23,17 @@ function UpperText() {
         </button>
       </a>
 
-      <h3>About</h3>
-      <p>
+      <h3 className="upperText__about_title">About</h3>
+      <p className="upperText__about_text">
         I am a nurse turned frontend designer that likes to create and discover
-        new things.{" "}
+        new things. I am currently well versed in HTML, CSS, and JavaScript.
+        Currently in the midst of learning React. Top Coder is loading.....{" "}
+      </p>
+
+      <h3 className="upperText__interests_title">Interests</h3>
+      <p className="upperText__interests_text">
+        Comic books. Music. Coffee addict. Technophile. Gamer. Fishing.
+        Basketball (Go Raptors!).{" "}
       </p>
     </div>
   );
