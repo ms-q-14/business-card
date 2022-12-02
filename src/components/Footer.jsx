@@ -3,15 +3,20 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer">
-      <button
+      <a
         className="git-btn btn-secondary"
         href="https://github.com/ms-q-14"
+        target="_blank"
       >
         <i class="bi bi-github"></i>
-      </button>
-      <button className="email-btn btn-secondary">
+      </a>
+      <a
+        className="email-btn btn-secondary"
+        href="mailto:muhammad.saadq14@gmail.com"
+        target="_blank"
+      >
         <i class="bi bi-envelope-paper"></i>
-      </button>
+      </a>
     </div>
   );
 }

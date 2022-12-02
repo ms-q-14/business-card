@@ -130,3 +130,11 @@ body {
   height: 40px;
   border-radius: 5px;
 }
+
+.footer > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
